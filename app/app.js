@@ -9,7 +9,7 @@ let cardsList = [
     description: "I should read the whole book",
     status: "in-progress",
     tasks: []
-  }, 
+  },
   {
     id: 2,
     title: "Write some code",
