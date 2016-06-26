@@ -14,6 +14,10 @@ app.get("/", function(req, res) {
   res.sendFile(__dirname + '/index.html')
 })
 
+app.get("/style.css", function(req, res) {
+  res.sendFile(__dirname + '/static/style.css')
+})
+
 app.listen(port, function(error) {
   if (error) {
     console.error(error)
