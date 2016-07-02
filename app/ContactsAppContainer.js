@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PropTypes, Component } from 'react'
 import { render } from 'react-dom'
 import ContactsApp from './ContactsApp'
 import 'whatwg-fetch';
