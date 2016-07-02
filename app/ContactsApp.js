@@ -13,11 +13,38 @@ class ContactsApp extends Component {
     }
   }
 
+  componentWillMount() {
+    console.log("ContactsApp: componentWillMount")
+  }
+
+  componentDidMount() {
+    console.log("ContactsApp: componentDidMount")
+  }
+
+  componentWillUnmount() {
+    console.log("ContactsApp: componentWillUnmount")
+  }
+
+  shouldComponentUpdate() {
+    console.log("ContactsApp: shouldComponentUpdate")
+    return true
+  }
+
+  componentWillUpdate() {
+    console.log("ContactsApp: componentWillUpdate")
+  }
+
+  componentDidUpdate() {
+    console.log("ContactsApp: componentDidUpdate")
+  }
+
   handleUserInput(searchTerm) {
     this.setState({filterText: searchTerm})
   }
 
   render() {
+    console.log("ContactsApp: render")
+
     return (
       <div>
         <SearchBar filterText={this.state.filterText} onUserInput={this.handleUserInput.bind(this)} />
