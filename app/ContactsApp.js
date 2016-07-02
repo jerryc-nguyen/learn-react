@@ -55,4 +55,4 @@ class ContactsApp extends Component {
 
 }
 
-export default ContactsApp
+export default ContactsApp;
