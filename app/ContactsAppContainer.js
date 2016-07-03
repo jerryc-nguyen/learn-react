@@ -1,7 +1,7 @@
 import React, { PropTypes, Component } from 'react'
 import { render } from 'react-dom'
 import ContactsApp from './ContactsApp'
-import 'whatwg-fetch';
+import 'whatwg-fetch'
 
 class ContactsAppContainer extends Component {
 
